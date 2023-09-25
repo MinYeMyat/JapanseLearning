@@ -1,0 +1,288 @@
+body {
+    background-color: #F5F5F5;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-image: url('japan/sun.jpg');
+    background-position: center;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    
+}
+
+
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+    padding: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #DC143C; /* Darker shade of primary color */
+}
+
+main {
+    padding: 20px;
+}
+
+
+footer {
+    background-image: url(/Applications/MAMP/htdocs/ForProject/japan/２.jpg);
+    color: #0f0000;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section {
+    margin-bottom: 40px;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.image-section img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 5%;
+
+    
+}
+
+
+
+.image-section img:hover {
+    transform: scale(1.1);
+}
+
+
+.cta-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cta-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cta-section button {
+    background-color: var(--primary-color);
+    color: #ff0000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-section button:hover {
+    background-color: #2d0000; /* Darker shade of primary color */
+}
+
+.testimonial-section {
+    margin-bottom: 40px;
+}
+
+.testimonial-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-style: italic;
+    color: #777;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(252, 252, 252);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {
+    background-color: #f8c58c;
+}
+
+.dropdown:hover a {
+    background-color: #e0b68e;
+}
+
+.dropdown a{
+color: #ffffff;
+}
+
+#animation
+
+
+.logo-container {
+    margin-right: 10px;
+}
+
+.logo-image {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%;
+}
+
+.login-logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.login-container button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+.login-container .message {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Add CSS styles for the logout button and position it */
+/* Add CSS styles for the logout button and position it */
+.logout-button {
+    background-color: #f44336; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+}
+
+.logout-button:hover {
+    background-color: #2f45d3; /* Darker red on hover */
+}
+
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-image: url(/japan/２.jpg);
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+    z-index: 1;
+    transition: width 0.3s;
+}
+
+
+
